@@ -19,8 +19,8 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  /* background-color: white; */
-  border-bottom: 2px solid black;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(14, 14, 14, 0.4);
   overflow: hidden;
 }
 
@@ -39,12 +39,18 @@ nav {
 }
 
 .nav-list ul li a img {
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   display: block;
   margin: auto;
   margin-top: 15px;
   filter: grayscale(100%);
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.nav-list ul li a img:hover {
+  filter: grayscale(0);
   opacity: 0.6;
 }
 
@@ -55,6 +61,7 @@ nav {
   line-height: 46px;
   text-align: center;
   color: grey;
+  font-size: 1rem;
   /* background-color: blue; */
 }
 
@@ -62,6 +69,8 @@ nav {
   filter: grayscale(0);
   opacity: 0.8;
 }
+
+/* nav Contact */
 
 .nav-contact {
   display: flex;
@@ -73,8 +82,8 @@ nav {
 
 .nav-contact .telepon {
   display: flex;
-  width: 185px;
-  height: 39px;
+  width: 165px;
+  height: 37px;
   background-color: rgb(255, 143, 16);
   align-items: center;
   justify-content: center;
@@ -83,14 +92,20 @@ nav {
   color: white;
 }
 
+.nav-contact .burger-icon img {
+  width: 35px;
+  height: 30px;
+  display: none;
+}
+
 .nav-contact .telepon img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   margin-right: 13px;
 }
 
 .nav-contact .telepon p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .nav-contact .sosmed img {
@@ -147,4 +162,209 @@ nav {
   background-color: rgb(255, 143, 16);
   color: white;
   font-weight: 500;
+}
+
+/* Laptop besar */
+@media (max-width: 1440px) {
+  /* navbar */
+
+  .nav-list ul li {
+    width: 100px;
+  }
+
+  .nav-list ul li a img {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul li a span {
+    font-size: 0.9.5rem;
+    width: 100px;
+  }
+
+  /* nav Contact */
+
+  .nav-contact .telepon {
+    width: 155px;
+    height: 35px;
+  }
+
+  .nav-contact .telepon img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 13px;
+  }
+
+  .nav-contact .sosmed img {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Hero Konten */
+  .hero {
+    background-position: center 100px;
+  }
+
+  .hero .konten {
+    margin-top: 430px;
+  }
+}
+
+/* LAPTOP */
+@media (max-width: 1024px) {
+  /* navbar */
+
+  .nav-list ul li {
+    width: 73px;
+  }
+
+  .nav-list ul li a img {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul li a span {
+    font-size: 0.8.5rem;
+    width: 73px;
+  }
+
+  /* nav Contact */
+  .nav-contact {
+    width: 290px;
+  }
+
+  .nav-contact .telepon {
+    width: 145px;
+    height: 33px;
+  }
+
+  .nav-contact .telepon img {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 12px;
+  }
+
+  .nav-contact .sosmed img {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Hero Konten */
+  .hero {
+    background-position: center 100px;
+  }
+
+  .hero .konten {
+    margin-top: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* navbar */
+
+  .logo img {
+    height: 110px;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+
+  nav {
+    overflow: visible;
+  }
+
+  .nav-list {
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    right: -100%;
+    top: 100px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    padding-top: 50px;
+    transition: 0.5s;
+  }
+
+  .nav-list.active {
+    right: 0px;
+  }
+
+  .nav-list ul li {
+    width: 73px;
+    display: block;
+  }
+
+  .nav-list ul li a img {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul li a span {
+    font-size: 0.8.5rem;
+    width: 73px;
+  }
+
+  /* nav Contact */
+  .nav-contact {
+    width: 320px;
+  }
+
+  .nav-contact .telepon {
+    width: 145px;
+    height: 33px;
+  }
+
+  .nav-contact .burger-icon img {
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+  }
+
+  .nav-contact .telepon img {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 12px;
+  }
+
+  .nav-contact .burger-icon img {
+    margin-left: 15px;
+  }
+
+  .nav-contact .sosmed img {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Hero Konten */
+  .hero {
+    background-position: center 100px;
+  }
+
+  .hero .konten {
+    margin-top: 360px;
+  }
+
+  .hero .konten h1 {
+    font-size: 60px;
+    margin-bottom: 42px;
+  }
+
+  .hero .konten p {
+    font-size: 17px;
+  }
 }
