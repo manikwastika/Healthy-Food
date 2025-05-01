@@ -1,0 +1,53 @@
+/* LAPTOP */
+@media (max-width: 1024px) {
+  /* navbar */
+
+  .nav-list ul li {
+    width: 73px;
+  }
+
+  .nav-list ul li a img {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul li a span {
+    font-size: 0.8.5rem;
+    width: 73px;
+  }
+
+  /* nav Contact */
+  .nav-contact {
+    width: 290px;
+  }
+
+  .nav-contact .telepon {
+    width: 145px;
+    height: 33px;
+  }
+
+  .nav-contact .telepon img {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 12px;
+  }
+
+  .nav-contact .sosmed img {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Hero Konten */
+  .hero {
+    background-position: center 100px;
+  }
+
+  .hero .konten {
+    margin-top: 360px;
+  }
+}

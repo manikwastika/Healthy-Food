@@ -1,0 +1,50 @@
+/* Laptop besar */
+@media (max-width: 1440px) {
+  /* navbar */
+
+  .nav-list ul li {
+    width: 100px;
+  }
+
+  .nav-list ul li a img {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+  }
+
+  .nav-list ul li a span {
+    font-size: 0.9.5rem;
+    width: 100px;
+  }
+
+  /* nav Contact */
+
+  .nav-contact .telepon {
+    width: 155px;
+    height: 35px;
+  }
+
+  .nav-contact .telepon img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 13px;
+  }
+
+  .nav-contact .sosmed img {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* Hero Konten */
+  .hero {
+    background-position: center 100px;
+  }
+
+  .hero .konten {
+    margin-top: 430px;
+  }
+}
