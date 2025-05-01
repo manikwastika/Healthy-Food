@@ -12,7 +12,7 @@
 /* navbar */
 nav {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   justify-content: space-between;
   width: 100%; /* mungkin masalahnya disini */
   height: 100px;
@@ -20,7 +20,7 @@ nav {
   right: 0;
   top: 0;
   background-color: white;
-  box-shadow: 0 5px 10px rgba(14, 14, 14, 0.4);
+  filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.4));
   overflow: hidden;
 }
 
@@ -46,7 +46,7 @@ nav {
   margin-top: 15px;
   filter: grayscale(100%);
   opacity: 0.6;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .nav-list ul li a img:hover {
@@ -124,7 +124,7 @@ nav {
   background-image: url("../img/1bc.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 100px;
+  background-position: center 0px;
   align-items: center; /* Tengahin secara vertikal */
   justify-content: center; /* Tengahin secara horizontal */
   text-align: center;
@@ -134,7 +134,7 @@ nav {
   font-family: "Roboto";
   font-size: 20px;
   /* background-color: aqua; */
-  margin-top: 540px;
+  margin-top: 350px;
 }
 
 .hero .konten h1 {
@@ -154,13 +154,128 @@ nav {
   font-weight: 200;
 }
 
-.hero .konten button {
-  width: 160px;
+.tombol-readmore button {
+  width: 190px;
   height: 45px;
-  border-radius: 20px;
+  border-radius: 50px;
   font-family: sans-serif;
   font-size: 15px;
   background-color: rgb(255, 143, 16);
   color: white;
   font-weight: 500;
+}
+
+/* TASTE OF FOOD */
+.col {
+  margin: 0 20px;
+}
+
+.col a {
+  text-decoration: none;
+}
+
+.kolom-1,
+.kolom-2,
+.kolom-3,
+.kolom-4,
+.kolom-5,
+.kolom-6 {
+  height: 150px;
+  transition: 0.4s;
+  /* background-color: rgb(255, 143, 16); */
+}
+
+.kolom-2 {
+  background-color: rgb(255, 143, 16);
+  border-radius: 10px;
+}
+
+.kolom-2 .makanan-konten .deskripsi-makanan h1 {
+  color: white;
+}
+
+.kolom-2 .makanan-konten .deskripsi-makanan p {
+  color: rgb(235, 235, 235);
+}
+
+.kolom-1:hover,
+.kolom-3:hover,
+.kolom-4:hover,
+.kolom-5:hover,
+.kolom-6:hover {
+  background-color: rgb(255, 143, 16);
+  border-radius: 10px;
+}
+
+.kolom-1:hover .deskripsi-makanan h1,
+.kolom-3:hover .deskripsi-makanan h1,
+.kolom-4:hover .deskripsi-makanan h1,
+.kolom-5:hover .deskripsi-makanan h1,
+.kolom-6:hover .deskripsi-makanan h1 {
+  color: white;
+}
+
+.kolom-1:hover .deskripsi-makanan p,
+.kolom-3:hover .deskripsi-makanan p,
+.kolom-4:hover .deskripsi-makanan p,
+.kolom-5:hover .deskripsi-makanan p,
+.kolom-6:hover .deskripsi-makanan p {
+  color: rgb(236, 236, 236);
+}
+
+.tof-konten {
+  width: 100%;
+  height: 85vh;
+  background-color: rgb(252, 252, 252);
+}
+
+.tof-konten .title h1 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 75px;
+  font-weight: 550;
+  font-size: 50px;
+  opacity: 0.9;
+}
+
+.tof-konten .tombol-readmore {
+  text-align: center;
+}
+
+.clm1 .row,
+.clm2 .row {
+  padding-bottom: 65px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.makanan-konten {
+  display: flex;
+  text-align: left;
+  padding: 0px 25px;
+}
+
+.makanan-konten .gambarmknan {
+  margin-right: 15px;
+  line-height: 130px;
+}
+
+.makanan-konten .deskripsi-makanan {
+  align-self: center;
+  margin-top: 8px;
+}
+
+.makanan-konten .deskripsi-makanan h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.makanan-konten .deskripsi-makanan p {
+  color: gray;
+  margin-bottom: 0rem;
+}
+
+.tof-konten .tombol-readmore button {
+  margin-top: 25px;
 }

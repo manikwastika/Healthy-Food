@@ -41,10 +41,10 @@
 
   /* Hero Konten */
   .hero {
-    background-position: center 100px;
+    background-position: center 0px;
   }
 
   .hero .konten {
-    margin-top: 430px;
+    margin-top: 275px;
   }
 }
