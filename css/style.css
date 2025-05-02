@@ -49,9 +49,22 @@ nav {
   transition: 0.3s;
 }
 
-.nav-list ul li a img:hover {
+.nav-list ul li a span {
+  transition: 0.3s;
+}
+
+.nav-list ul li .aktif img {
   filter: grayscale(0);
   opacity: 0.6;
+}
+
+.nav-list ul li a:hover img {
+  filter: grayscale(0);
+  opacity: 0.6;
+}
+
+.nav-list ul li a:hover span {
+  color: rgb(255, 143, 16);
 }
 
 .nav-list ul li a span {
@@ -163,6 +176,11 @@ nav {
   background-color: rgb(255, 143, 16);
   color: white;
   font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.tombol-readmore button:hover {
+  background-color: rgb(224, 128, 18);
 }
 
 /* TASTE OF FOOD */
