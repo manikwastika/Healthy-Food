@@ -147,7 +147,7 @@ nav {
   font-family: "Roboto";
   font-size: 20px;
   /* background-color: aqua; */
-  margin-top: 350px;
+  margin-top: 20%;
 }
 
 .hero .konten h1 {
@@ -184,9 +184,6 @@ nav {
 }
 
 /* TASTE OF FOOD */
-.col {
-  margin: 0 20px;
-}
 
 .col a {
   text-decoration: none;
@@ -201,6 +198,13 @@ nav {
   height: 150px;
   transition: 0.4s;
   /* background-color: rgb(255, 143, 16); */
+}
+
+.kolom-1,
+.kolom-2,
+.kolom-4,
+.kolom-5 {
+  margin-right: 30px;
 }
 
 .kolom-2 {
@@ -247,6 +251,13 @@ nav {
   background-color: rgb(252, 252, 252);
 }
 
+.line {
+  width: 500px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
 .tof-konten .title h1 {
   text-align: center;
   padding-top: 90px;
@@ -270,7 +281,6 @@ nav {
 .makanan-konten {
   display: flex;
   text-align: left;
-  padding: 0px 25px;
 }
 
 .makanan-konten .gambarmknan {

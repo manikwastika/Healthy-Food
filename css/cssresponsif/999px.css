@@ -1,7 +1,4 @@
-/* Tablet */
-@media (max-width: 768px) {
-  /* navbar */
-
+@media (max-width: 999px) {
   .logo img {
     height: 110px;
     margin-top: -10px;
@@ -96,5 +93,13 @@
 
   .hero .konten p {
     font-size: 17px;
+  }
+
+  /* taste of food */
+  .kolom-2,
+  .kolom-3,
+  .kolom-5,
+  .kolom-6 {
+    margin-top: 20px;
   }
 }

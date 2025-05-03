@@ -45,6 +45,32 @@
   }
 
   .hero .konten {
-    margin-top: 275px;
+    margin-top: 17%;
+  }
+
+  /* taste of food */
+  .makanan-konten .deskripsi-makanan {
+    align-self: center;
+    margin-top: 19px;
+  }
+
+  .makanan-konten .deskripsi-makanan h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+
+  .makanan-konten .deskripsi-makanan p {
+    color: gray;
+    margin-bottom: 0rem;
+    font-size: 85%;
+    box-sizing: border-box;
+  }
+
+  .kolom-1,
+  .kolom-2,
+  .kolom-4,
+  .kolom-5 {
+    margin-right: 20px;
   }
 }

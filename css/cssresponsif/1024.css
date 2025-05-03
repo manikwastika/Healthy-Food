@@ -47,7 +47,24 @@
     background-position: center 0px;
   }
 
-  .hero .konten {
-    margin-top: 240px;
+  /* .hero .konten {
+    margin-top: 17%;
+  } */
+
+  /* taste of food */
+  .kolom-3,
+  .kolom-6 {
+    margin-top: 20px;
+  }
+
+  .kolom-1,
+  .kolom-2,
+  .kolom-4,
+  .kolom-5 {
+    margin-right: 15px;
+  }
+
+  .makanan-konten {
+    padding: 0px 15px;
   }
 }

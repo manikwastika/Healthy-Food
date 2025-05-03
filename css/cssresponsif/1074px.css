@@ -1,0 +1,18 @@
+@media (max-width: 1074px) {
+  .nav-list ul li {
+    display: inline-block;
+    width: 85px;
+    height: 98px;
+  }
+
+  .nav-list ul li a span {
+    width: 85px;
+    height: 43px;
+    font-size: 0.9rem;
+  }
+
+  .nav-list ul li a img {
+    width: 20px;
+    height: 20px;
+  }
+}

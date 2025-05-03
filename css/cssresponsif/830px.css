@@ -1,0 +1,6 @@
+@media (max-width: 830px) {
+  .clm1 .row,
+  .clm2 .row {
+    display: block;
+  }
+}
