@@ -73,4 +73,9 @@
   .kolom-5 {
     margin-right: 20px;
   }
+
+  /* Recipes */
+  .recipes-konten .row .col-sm-3 img {
+    height: 220px;
+  }
 }

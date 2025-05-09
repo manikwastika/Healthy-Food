@@ -179,6 +179,24 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
+.hero .tombol-readmore button {
+  margin-top: 2%;
+}
+
+.tof-konten .tombol-readmore button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.recipes-konten .tombol-readmore button {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.blog-konten .tombol-readmore button {
+  margin-top: 3%;
+}
+
 .tombol-readmore button:hover {
   background-color: rgb(224, 128, 18);
 }
@@ -247,8 +265,9 @@ nav {
 
 .tof-konten {
   width: 100%;
-  height: 85vh;
+  min-height: 85vh;
   background-color: rgb(252, 252, 252);
+  box-sizing: border-box;
 }
 
 .line {
@@ -256,12 +275,13 @@ nav {
   height: 1px;
   background-color: rgba(0, 0, 0, 0.5);
   margin: auto;
+  margin-top: 40px;
 }
 
-.tof-konten .title h1 {
+.title h1 {
   text-align: center;
-  padding-top: 90px;
-  padding-bottom: 75px;
+  padding-top: 3%;
+  padding-bottom: 6%;
   font-weight: 550;
   font-size: 50px;
   opacity: 0.9;
@@ -276,6 +296,7 @@ nav {
   padding-bottom: 65px;
   padding-right: 150px;
   padding-left: 150px;
+  box-sizing: border-box;
 }
 
 .makanan-konten {
@@ -304,6 +325,147 @@ nav {
   margin-bottom: 0rem;
 }
 
-.tof-konten .tombol-readmore button {
-  margin-top: 25px;
+/* Recipes */
+.recipes-konten {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 85vh;
+  background-color: white;
+}
+
+.recipes-konten .title h1 {
+  margin-top: -100px;
+}
+
+.recipes-konten .tombol-readmore {
+  text-align: center;
+}
+
+.recipes-konten .no-gutters {
+  padding: 0 100px;
+}
+
+.recipes-konten .row .col-sm-3 {
+  padding: 0;
+}
+
+.recipes-konten .row .col-sm-3 img {
+  width: 100%;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Blog Konten */
+.blog-konten {
+  width: 100%;
+  min-height: 90vh;
+  position: relative;
+}
+
+.blog-konten .arrow-left {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 143, 16);
+  position: absolute;
+  top: 43%;
+  left: 100px;
+  border-radius: 50%;
+  z-index: 99999;
+  transition: 0.3s;
+}
+
+.blog-konten .arrow-right {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 143, 16);
+  position: absolute;
+  top: 43%;
+  right: 100px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.blog-konten .arrow-left:hover,
+.blog-konten .arrow-right:hover {
+  background-color: rgb(211, 121, 18);
+}
+
+.blog-konten .arrow-left img,
+.blog-konten .arrow-right img {
+  width: 25px;
+  height: 25px;
+  margin-left: 30%;
+  margin-top: 30%;
+}
+
+.blog-konten .title h1 {
+  margin-bottom: -3%;
+}
+
+.dot {
+  text-align: center;
+}
+
+.dot ul {
+  padding-left: 0;
+}
+
+.dot ul .two {
+  background-color: rgba(255, 143, 16, 1);
+}
+
+.dot ul li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 143, 16, 0.5);
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.kontainer-blog {
+  width: 60%;
+  height: 40vh;
+  /* background-color: aqua; */
+  margin: auto;
+  position: relative;
+}
+
+.kontainer-blog .petik img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.kontainer-blog .one img {
+  left: 20px;
+  top: 20px;
+}
+
+.kontainer-blog .two img {
+  right: 0px;
+  bottom: 45px;
+}
+
+.blog-konten .kontainer-blog .text-konten {
+  display: flex;
+}
+
+.blog-konten .kontainer-blog .text-konten .isi-text {
+  margin-top: 8%;
+  margin-left: -30px;
+}
+
+.blog-konten .kontainer-blog .text-konten img {
+  width: 150px;
+  height: 150px;
+  margin: 98px;
+  border-radius: 50%;
+  border: 4px solid rgb(255, 143, 16);
+}
+
+.blog-konten .tombol-readmore {
+  text-align: center;
 }

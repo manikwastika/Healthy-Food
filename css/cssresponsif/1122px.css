@@ -1,0 +1,9 @@
+@media (max-width: 1122px) {
+  .makanan-konten .deskripsi-makanan p {
+    font-size: 76%;
+  }
+  /* Recipes */
+  .recipes-konten .row .col-sm-3 img {
+    height: 200px;
+  }
+}

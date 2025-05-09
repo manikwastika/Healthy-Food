@@ -102,4 +102,9 @@
   .kolom-6 {
     margin-top: 20px;
   }
+
+  /* Recipes */
+  .recipes-konten .row .col-sm-3 img {
+    height: 150px;
+  }
 }
