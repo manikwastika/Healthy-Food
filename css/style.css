@@ -147,13 +147,11 @@ nav {
 
 .hero .konten {
   font-family: "Roboto";
-  font-size: 20px;
-  /* background-color: aqua; */
   margin-top: 28%;
 }
 
 .hero .konten h1 {
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   font-size: 5rem;
   color: white;
   font-weight: 600;
@@ -161,7 +159,7 @@ nav {
 
 .hero .konten p {
   width: 600px;
-  height: 100px;
+  height: 95px;
   text-align: center;
   margin: auto;
   font-size: 1.5rem;
@@ -179,11 +177,11 @@ nav {
   color: white;
   font-weight: 500;
   transition: 0.3s ease-in-out;
-  margin-bottom: 30%;
 }
 
 .hero .tombol-readmore button {
   margin-top: 2%;
+  margin-bottom: 30%;
 }
 
 .tof-konten .tombol-readmore button {
@@ -368,7 +366,7 @@ nav {
   height: 60px;
   background-color: rgb(197, 197, 197);
   position: absolute;
-  top: 32%;
+  top: 55%;
   left: 100px;
   border-radius: 50%;
   z-index: 99999;
@@ -381,7 +379,7 @@ nav {
   height: 60px;
   background-color: rgb(197, 197, 197);
   position: absolute;
-  top: 32%;
+  top: 55%;
   right: 100px;
   border-radius: 50%;
   transition: 0.3s;

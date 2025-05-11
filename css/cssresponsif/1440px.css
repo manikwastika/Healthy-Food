@@ -44,6 +44,15 @@
     background-position: center 0px;
   }
 
+  .hero .konten h1 {
+    font-size: 4rem;
+  }
+
+  .hero .konten p {
+    width: 500px;
+    font-size: 1.2rem;
+  }
+
   /* taste of food */
   .makanan-konten .deskripsi-makanan {
     align-self: center;

@@ -15,6 +15,12 @@
     width: 20px;
     height: 20px;
   }
+
+  /* Hero Konten */
+  .hero .konten {
+    margin-top: 35%;
+  }
+
   /* Recipes */
   .recipes-konten .row .col-sm-3 img {
     height: 190px;

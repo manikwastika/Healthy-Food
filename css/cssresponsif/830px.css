@@ -1,4 +1,8 @@
 @media (max-width: 830px) {
+  .hero .konten {
+    margin-top: 40%;
+  }
+
   .clm1 .row,
   .clm2 .row {
     display: block;

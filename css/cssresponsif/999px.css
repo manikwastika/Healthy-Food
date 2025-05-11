@@ -83,7 +83,7 @@
   }
 
   .hero .konten {
-    margin-top: 210px;
+    margin-top: 35%;
   }
 
   .hero .konten h1 {
@@ -106,5 +106,29 @@
   /* Recipes */
   .recipes-konten .row .col-sm-3 img {
     height: 150px;
+  }
+
+  /* Blog Konten */
+  .blog-konten .text-konten .isi-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .blog-konten .text-konten .isi-text p {
+    font-size: 0.8rem;
+  }
+
+  .blog-konten .kontainer-blog .text-konten img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-top: 16%;
+  }
+
+  .kontainer-blog .petik img {
+    width: 40px;
+    height: 40px;
   }
 }
