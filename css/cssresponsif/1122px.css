@@ -6,4 +6,53 @@
   .recipes-konten .row .col-sm-3 img {
     height: 200px;
   }
+
+  /* Blog Konten */
+  .kontainer-blog .one img {
+    top: 40px;
+  }
+
+  .kontainer-blog .two img {
+    bottom: 15%;
+  }
+
+  .kontainer-blog .petik img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-top: 14.5%;
+  }
+
+  .blog-konten .kontainer-blog .text-konten img {
+    width: 105px;
+    height: 105px;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-left: -50px;
+  }
+
+  .blog-konten .text-konten .isi-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .blog-konten .text-konten .isi-text p {
+    font-size: 0.9rem;
+  }
+
+  .blog-konten .arrow-left,
+  .blog-konten .arrow-right {
+    width: 50px;
+    height: 50px;
+  }
+
+  .blog-konten .arrow-left img,
+  .blog-konten .arrow-right img {
+    width: 18px;
+    height: 18px;
+    margin-left: 31%;
+    margin-top: 31%;
+  }
 }
