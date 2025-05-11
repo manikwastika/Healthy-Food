@@ -196,6 +196,7 @@ nav {
 
 .blog-konten .tombol-readmore button {
   margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .tombol-readmore button:hover {
@@ -482,4 +483,90 @@ nav {
 
 .blog-konten .text-konten .isi-text p {
   font-size: 1.2rem;
+}
+
+/* FOOTER CONTAINER */
+.container-footer-konten {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(252, 132, 52);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-konten {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container-footer-konten .logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 18px;
+}
+
+.menu ul h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+.menu ul li {
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: white;
+}
+
+.contact-us h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.contact-us input {
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.contact-us button {
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: rgb(211, 100, 9);
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* copyright */
+.copyright {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(211, 100, 9);
+}
+
+.copyright h5 {
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.menu ul li a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
 }

@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- navbar start -->
-    <nav>
+    <nav id="back">
       <!-- logo -->
       <div class="logo">
         <img
@@ -95,7 +95,7 @@
             adipisicing elit. Consequuntur
           </p>
           <div class="tombol-readmore">
-            <button>Read More</button>
+            <a href="#taste"><button>Read More</button></a>
           </div>
         </div>
       </div>
@@ -219,7 +219,7 @@
           </div>
         </div>
         <div class="tombol-readmore">
-          <button>Read More</button>
+          <a href="#recipes"><button>Read More</button></a>
         </div>
       </div>
       <div class="line"></div>
@@ -263,7 +263,7 @@
           </div>
         </div>
         <div class="tombol-readmore">
-          <button>Read More</button>
+          <a href="#blog"><button>Read More</button></a>
         </div>
       </div>
       <div class="line"></div>
@@ -271,7 +271,7 @@
     <!-- Recipes End -->
 
     <!-- Blog Start -->
-    <section>
+    <section id="blog">
       <div class="blog-konten">
         <div onclick="prevKonten()" class="arrow-left">
           <img src="img/icons8-back-50.png" alt="" />
@@ -308,9 +308,66 @@
           <button>Read More</button>
         </div>
       </div>
-      <div class="line"></div>
     </section>
     <!-- Blog End -->
+
+    <!-- Footer Konten Start -->
+    <section id="contact">
+      <div class="container-footer-konten">
+        <div class="footer-konten">
+          <div class="logo">
+            <img
+              src="img/vecteezy_kitchen-chef-logo-design-vector-template_10482800.jpg"
+              alt=""
+            />
+          </div>
+          <div class="menu">
+            <ul>
+              <h4>Menu</h4>
+              <li>Kitchen</li>
+              <li>Taste</li>
+              <li>Recipes</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <h4>Meet Chefs</h4>
+              <li>Joko Susanto</li>
+              <li>Miquel Ferran Gomez</li>
+              <li>Manik Wastika</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <h4>Social Media</h4>
+              <li>
+                <a href="#"><img src="img/icons8-x-50.png" alt="" />Twitter</a>
+              </li>
+              <li>
+                <a href="#back"
+                  ><img src="img/icons8-facebook-50.png" alt="" />Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-us">
+            <h4>Contact Us</h4>
+            <input type="text" placeholder="pesan" />
+            <button>Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Konten End -->
+
+    <!-- copyright start-->
+    <section>
+      <div class="copyright">
+        <h5>Copyright By I Komang Manik Wastika</h5>
+      </div>
+    </section>
+    <!-- copyright end-->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
