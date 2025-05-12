@@ -97,8 +97,13 @@
   }
 
   /* taste of food */
+  .makanan-konten .gambarmknan img {
+    width: 130px;
+    height: 130px;
+  }
+
   .makanan-konten .deskripsi-makanan p {
-    font-size: 65%;
+    font-size: 75%;
   }
 
   /* Recipes */
