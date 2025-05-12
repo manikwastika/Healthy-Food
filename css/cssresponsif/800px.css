@@ -1,0 +1,78 @@
+@media (max-width: 800px) {
+  /* GLOBAL */
+  .title h1 {
+    font-size: 2.6rem;
+  }
+
+  /* Taste Of Food */
+  .makanan-konten .gambarmknan img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .blog-konten .arrow-left {
+    left: 50px;
+  }
+
+  .blog-konten .arrow-right {
+    right: 50px;
+  }
+
+  .kontainer-blog .petik img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .kontainer-blog .one img {
+    top: 60px;
+  }
+
+  .kontainer-blog .two img {
+    bottom: 15%;
+  }
+
+  .blog-konten .text-konten .isi-text h1 {
+    font-size: 1rem;
+  }
+
+  .blog-konten .text-konten .isi-text p {
+    font-size: 0.7rem;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-top: 21.5%;
+  }
+
+  .blog-konten .kontainer-blog .text-konten img {
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+  }
+
+  .blog-konten .arrow-left,
+  .blog-konten .arrow-right {
+    width: 40px;
+    height: 40px;
+  }
+
+  .blog-konten .arrow-left img,
+  .blog-konten .arrow-right img {
+    width: 15px;
+    height: 15px;
+    margin-left: 31%;
+    margin-top: 31%;
+  }
+
+  .contact-us input {
+    width: 90px;
+    height: 25px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+
+  .contact-us button {
+    width: 50px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+}

@@ -1,9 +1,18 @@
 // UNTUK BURGER PADA NAVBAR
 const toggleBtn = document.getElementById("menu-icon");
 const navList = document.getElementById("navList");
+const navitem = document.querySelector(".nav-list ul li a");
 
+// toggle navlist
 toggleBtn.addEventListener("click", () => {
   navList.classList.toggle("active");
+});
+
+// remove toggle
+document.addEventListener("click", function (e) {
+  if (!toggleBtn.contains(e.target)) {
+    navList.classList.remove("active");
+  }
 });
 
 // SLIDE PAGE UNTUK BLOG

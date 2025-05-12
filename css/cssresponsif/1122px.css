@@ -55,4 +55,30 @@
     margin-left: 31%;
     margin-top: 31%;
   }
+
+  /* Footer Konten */
+  .container-footer-konten .logo img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu ul h4,
+  .contact-us h4 {
+    font-size: 1rem;
+  }
+
+  .menu ul li {
+    font-size: 0.8rem;
+  }
+
+  .contact-us input {
+    width: 160px;
+    height: 32px;
+    margin-right: 5px;
+  }
+
+  .contact-us button {
+    width: 80px;
+    height: 32px;
+  }
 }
