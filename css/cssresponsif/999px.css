@@ -97,11 +97,8 @@
   }
 
   /* taste of food */
-  .kolom-2,
-  .kolom-3,
-  .kolom-5,
-  .kolom-6 {
-    margin-top: 20px;
+  .makanan-konten .deskripsi-makanan p {
+    font-size: 65%;
   }
 
   /* Recipes */

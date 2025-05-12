@@ -1,4 +1,8 @@
 @media (max-width: 1074px) {
+  .makanan-konten .deskripsi-makanan p {
+    font-size: 70%;
+  }
+
   .nav-list ul li {
     display: inline-block;
     width: 85px;

@@ -1,9 +1,4 @@
 @media (max-width: 1122px) {
-  .makanan-konten .gambarmknan img {
-    width: 80px;
-    height: 80px;
-  }
-
   .makanan-konten .deskripsi-makanan p {
     font-size: 75%;
   }

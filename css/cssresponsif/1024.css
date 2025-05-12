@@ -1,5 +1,9 @@
 /* LAPTOP */
 @media (max-width: 1024px) {
+  .makanan-konten .deskripsi-makanan p {
+    font-size: 65%;
+  }
+
   /* navbar */
 
   .nav-list ul li {
@@ -47,24 +51,11 @@
     background-position: center 0px;
   }
 
-  /* .hero .konten {
-    margin-top: 17%;
-  } */
-
   /* taste of food */
-  .kolom-3,
-  .kolom-6 {
-    margin-top: 20px;
-  }
-
   .kolom-1,
   .kolom-2,
   .kolom-4,
   .kolom-5 {
     margin-right: 15px;
-  }
-
-  .makanan-konten {
-    padding: 0px 15px;
   }
 }
