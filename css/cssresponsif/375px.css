@@ -1,0 +1,67 @@
+@media (max-width: 375px) {
+  .tombol-readmore button {
+    width: 90px;
+    height: 25px;
+    font-size: 0.6rem;
+  }
+  .nav-contact .telepon {
+    width: 100px;
+    height: 24px;
+  }
+  .nav-contact .telepon p {
+    font-size: 8px;
+  }
+  .nav-contact .telepon img {
+    width: 8px;
+    height: 8px;
+  }
+  .nav-contact .burger-icon img {
+    margin-left: 10px;
+  }
+  .nav-contact {
+    width: 230px;
+  }
+
+  .logo img {
+    margin-left: 20px;
+  }
+
+  .hero .konten h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .hero .konten p {
+    width: 200px;
+    font-size: 0.5rem;
+    height: 50px;
+  }
+
+  .title h1 {
+    font-size: 1.7rem;
+  }
+
+  .clm1 .row,
+  .clm2 .row {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
+
+  .contact-us input {
+    width: 35px;
+    height: 8px;
+    font-size: 0.2rem;
+    padding-left: 4px;
+  }
+
+  .contact-us button {
+    width: 25px;
+    height: 8px;
+    font-size: 0.2rem;
+  }
+
+  .container-footer-konten .logo img {
+    width: 40px;
+    height: 40px;
+  }
+}

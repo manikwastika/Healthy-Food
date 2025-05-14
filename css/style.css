@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
 
+@font-face {
+  font-family: "CustomFont";
+  src: url("./fonts/CustomFont-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 * {
   text-decoration: none;
   font-family: sans-serif;
