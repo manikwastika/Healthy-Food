@@ -1,0 +1,63 @@
+@media (max-width: 689px) {
+  /* GLOBAL */
+  .title h1 {
+    font-size: 2.3rem;
+  }
+
+  .tombol-readmore button {
+    width: 125px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+
+  .hero .tombol-readmore button {
+    margin-top: 1%;
+  }
+
+  /* HERO PAGE */
+  .hero .konten h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero .konten p {
+    width: 350px;
+    font-size: 0.9rem;
+  }
+
+  /* TASTE OF FOOD */
+  .makanan-konten .gambarmknan img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .kolom-1,
+  .kolom-2,
+  .kolom-3,
+  .kolom-4,
+  .kolom-5,
+  .kolom-6 {
+    margin-bottom: 8px;
+    height: 130px;
+  }
+
+  .makanan-konten .deskripsi-makanan {
+    margin-top: 8px;
+  }
+
+  /* Recipies */
+
+  .recipes-konten .row {
+    display: block;
+    justify-self: center;
+  }
+
+  .recipes-konten .no-gutters {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .recipes-konten .row .col-sm-3 img {
+    width: 200px;
+    height: 120px;
+  }
+}

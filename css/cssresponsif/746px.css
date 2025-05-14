@@ -1,0 +1,5 @@
+@media (max-width: 746px) {
+  .recipes-konten .row .col-sm-3 img {
+    height: 120px;
+  }
+}

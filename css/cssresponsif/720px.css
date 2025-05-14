@@ -1,0 +1,131 @@
+@media (max-width: 720px) {
+  /* GLOBAL */
+  .title h1 {
+    font-size: 2.5rem;
+  }
+
+  .tombol-readmore button {
+    width: 150px;
+    height: 40px;
+  }
+
+  /* Hero Konten */
+  .hero .konten {
+    margin-top: 45%;
+  }
+
+  .hero .konten h1 {
+    font-size: 3.2rem;
+    margin-bottom: 25px;
+  }
+
+  .hero .konten p {
+    width: 400px;
+    font-size: 1rem;
+  }
+
+  /* Taste Of food  */
+  .makanan-konten .gambarmknan img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .kolom-1,
+  .kolom-2,
+  .kolom-3,
+  .kolom-4,
+  .kolom-5,
+  .kolom-6 {
+    margin-bottom: 10px;
+    height: 150px;
+  }
+
+  .clm1 .row,
+  .clm2 .row {
+    padding-bottom: 50px;
+  }
+
+  .tof-konten .tombol-readmore button {
+    margin-top: 1%;
+  }
+
+  /* BLOG Konten */
+  dl,
+  ol,
+  ul {
+    margin-bottom: 0rem;
+  }
+
+  .dot ul li {
+    width: 8px;
+    height: 8px;
+  }
+
+  .blog-konten .text-konten .isi-text h1 {
+    font-size: 0.9rem;
+  }
+
+  .blog-konten .text-konten .isi-text p {
+    font-size: 0.6rem;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-top: 23.5%;
+    margin-left: -65px;
+  }
+
+  .kontainer-blog .one img {
+    top: 65px;
+  }
+
+  .kontainer-blog .two img {
+    bottom: 20%;
+  }
+
+  .blog-konten .arrow-left,
+  .blog-konten .arrow-right {
+    width: 35px;
+    height: 35px;
+  }
+
+  .blog-konten .arrow-left img,
+  .blog-konten .arrow-right img {
+    margin-left: 29%;
+  }
+
+  .menu ul h4,
+  .contact-us h4 {
+    font-size: 0.8rem;
+  }
+
+  .menu ul li {
+    font-size: 0.6rem;
+  }
+
+  .menu ul li a img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+
+  .container-footer-konten {
+    height: 20vh;
+  }
+
+  .contact-us input {
+    width: 80px;
+    height: 22px;
+    font-size: 0.6rem;
+    padding-left: 15px;
+  }
+
+  .contact-us button {
+    width: 40px;
+    height: 22px;
+    font-size: 0.6rem;
+  }
+
+  .copyright h5 {
+    font-size: 0.8rem;
+  }
+}
