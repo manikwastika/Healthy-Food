@@ -1,0 +1,96 @@
+@media (max-width: 448px) {
+  .hero .konten {
+    margin-top: 50%;
+  }
+  .tombol-readmore button {
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+
+  .nav-contact .telepon {
+    width: 115px;
+    height: 24px;
+  }
+  .nav-contact .telepon p {
+    font-size: 10px;
+  }
+  .nav-contact .telepon img {
+    width: 10px;
+    height: 10px;
+  }
+  .nav-contact .sosmed img {
+    width: 11px;
+    height: 11px;
+  }
+
+  .nav-contact .burger-icon img {
+    width: 25px;
+    height: 20px;
+  }
+  .nav-contact {
+    width: 270px;
+  }
+  .logo img {
+    width: 85px;
+    height: 80px;
+    margin-top: 3px;
+  }
+  .makanan-konten .deskripsi-makanan p {
+    font-size: 70%;
+  }
+
+  .logo img {
+    margin-left: 25px;
+  }
+
+  .nav-contact {
+    width: 260px;
+  }
+
+  .hero .konten h1 {
+    font-size: 2rem;
+    margin-bottom: 17px;
+  }
+
+  .hero .konten p {
+    width: 250px;
+    font-size: 0.6rem;
+    height: 60px;
+  }
+
+  .blog-konten .arrow-left {
+    left: 30px;
+  }
+
+  .blog-konten .arrow-right {
+    right: 30px;
+  }
+
+  .menu ul h4,
+  .contact-us h4 {
+    font-size: 0.4rem;
+  }
+
+  .menu ul li {
+    font-size: 0.3rem;
+  }
+
+  .menu ul li a img {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+  }
+
+  .contact-us input {
+    width: 50px;
+    height: 10px;
+    font-size: 0.3rem;
+  }
+
+  .contact-us button {
+    width: 30px;
+    height: 10px;
+    font-size: 0.3rem;
+  }
+}

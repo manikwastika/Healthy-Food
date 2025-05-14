@@ -57,7 +57,9 @@
   }
 
   .recipes-konten .row .col-sm-3 img {
-    width: 200px;
-    height: 120px;
+    width: 250px;
+    height: 155px;
+    margin-bottom: 25px;
+    border-radius: 10px;
   }
 }

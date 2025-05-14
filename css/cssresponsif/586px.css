@@ -1,0 +1,106 @@
+@media (max-width: 586px) {
+  .blog-konten .tombol-readmore button {
+    margin-bottom: 7%;
+  }
+
+  .hero .konten h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .konten p {
+    width: 300px;
+    height: 80px;
+    font-size: 0.7rem;
+  }
+  .nav-contact .burger-icon img {
+    width: 30px;
+    height: 25px;
+  }
+
+  .nav-contact .telepon {
+    width: 130px;
+    height: 29px;
+  }
+
+  .nav-contact .telepon p {
+    font-size: 11px;
+  }
+
+  .nav-contact .telepon img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .logo img {
+    width: 95px;
+    height: 90px;
+    margin-top: 1px;
+  }
+
+  .recipes-konten .row .col-sm-3 img {
+    width: 230px;
+    height: 135px;
+  }
+
+  .blog-konten .kontainer-blog .text-konten {
+    display: inline-block;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .isi-text {
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .blog-konten .kontainer-blog .text-konten .profil {
+    justify-self: center;
+  }
+
+  .blog-konten .kontainer-blog .text-konten img {
+    margin: 20px 0px;
+  }
+
+  .blog-konten .arrow-left,
+  .blog-konten .arrow-right {
+    top: 50%;
+  }
+
+  .kontainer-blog .one img {
+    top: 18px;
+  }
+
+  .kontainer-blog .two img {
+    bottom: -9px;
+    right: 0;
+  }
+
+  .menu ul h4,
+  .contact-us h4 {
+    font-size: 0.7rem;
+  }
+
+  .menu ul li {
+    font-size: 0.5rem;
+  }
+
+  .contact-us input {
+    width: 70px;
+    height: 20px;
+    font-size: 0.5rem;
+  }
+
+  .contact-us button {
+    width: 40px;
+    height: 20px;
+    font-size: 0.5rem;
+  }
+
+  .menu ul li a img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .copyright h5 {
+    font-size: 0.7rem;
+  }
+}
